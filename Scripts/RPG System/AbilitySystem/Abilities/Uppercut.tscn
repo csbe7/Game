@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjjsw08xl05f0"]
+
+[ext_resource type="Script" path="res://Scripts/RPG System/AbilitySystem/Abilities/Uppercut.cs" id="1_chiqs"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mu1iv"]
+size = Vector3(5, 5, 5)
+
+[node name="Uppercut" type="Node"]
+script = ExtResource("1_chiqs")
+damage = 10.0
+hitstunDuration = 0.3
+knockbackStrenght = 20.0
+hitboxOffset = 1.0
+name = "Uppercut"
+cost = "5"
+hitboxShape = SubResource("BoxShape3D_mu1iv")

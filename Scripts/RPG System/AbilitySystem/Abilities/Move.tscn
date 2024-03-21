@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://di0r6iijwsg51"]
+
+[ext_resource type="Script" path="res://Scripts/RPG System/AbilitySystem/Abilities/Move.cs" id="1_lpx6d"]
+
+[node name="Move" type="Node"]
+script = ExtResource("1_lpx6d")
+name = "Move"
+cost = "0"
